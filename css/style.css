@@ -31,6 +31,22 @@ hr {
 	font-size: 2rem;
 }
 
+.fontsize3 {
+	font-size: 2.5rem;
+}
+
 .coloramarillo {
 	color: rgb(254,170,0);
+}
+
+.colorinsta {
+	color: rgb(181, 52, 113);
+}
+
+.coloryoutube {
+	color: rgb(253,29,29);
+}
+
+.colorface {
+	color: rgb(6, 82, 221);
 }
