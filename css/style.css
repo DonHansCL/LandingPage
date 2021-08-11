@@ -1,0 +1,36 @@
+.bg-uno {
+	background-image: url('img/photogrid.jpg');
+	background: rgba(76, 175, 80, 0.3) /* Green background with 30% opacity */
+	opacity: 0.3;
+}
+
+.verde {
+	background: rgb(0, 148, 50);
+}
+
+.amarillo {
+	background: rgb(254,170,0);
+}
+
+.dropdown:hover .dropdown-menu {display: block;}
+
+hr {
+	color: rgb(254,170,0);
+}
+
+
+.letracarter {
+	font-family: 'Carter One', cursive;
+}
+
+.letrasub {
+	font-family: 'Chewy';
+}
+
+.fontsize2 {
+	font-size: 2rem;
+}
+
+.coloramarillo {
+	color: rgb(254,170,0);
+}
