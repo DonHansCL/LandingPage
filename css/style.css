@@ -61,8 +61,21 @@ hr {
 
 .bordecard {
 		border-radius: 50%;
-	border: 6px solid rgb(254,170,0);
+		
+		border: 8px double rgb(254,170,0);
+
 }
+
+.borderimg {
+		 border-radius: 50%;
+		 border: 10px solid transparent;
+		 
+  padding: 15px;
+  border-image: url(../img/4.png) 30 round;
+
+
+}
+
 
 
 
