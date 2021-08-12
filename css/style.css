@@ -21,10 +21,13 @@ hr {
 
 .letracarter {
 	font-family: 'Carter One', cursive;
+	color: #0c2461;
 }
 
 .letrasub {
 	font-family: 'Chewy';
+	
+	color: #1e3799;
 }
 
 .fontsize2 {
@@ -52,7 +55,7 @@ hr {
 }
 
 .header-fondo {
-	background-image: url('img/4.png');
+	background-image: url(../img/4.png);
 }
 
 
@@ -85,7 +88,7 @@ hr {
 	top: 0;
 	position: absolute;
 	box-sizing: border-box;
-	background-color: #0A0220;
+	background-image: url(../img/4.png);
 	padding: 30px;
 	width: 450px;
 	text-align: center;
@@ -98,13 +101,16 @@ hr {
 .testimonials .item img {
 	width: 100px;
 	border-radius: 50%;
-	border: 13px solid rgb(254,170,0);
+	border: 8px solid #0c2461;
 }
 .testimonials .item p {
 	color: #ddd;
+	font-size: 18px;
 }
 .testimonials .item h2 {
-	font-size: 14px;
+	font-size: 16px;
+	color: #1e3799;
+	
 }
 .dots {
 	display: flex;
