@@ -59,7 +59,10 @@ hr {
 }
 
 
-
+.bordecard {
+		border-radius: 50%;
+	border: 6px solid rgb(254,170,0);
+}
 
 
 
