@@ -1,14 +1,14 @@
 function validar(){
 
 
-    var nombre, apellido, email, direccion, validamail;
+    var nombre, apellido, email, direccion, validamail, validanombre;
     nombre = document.getElementById("nombre").value;
     apellido = document.getElementById("apellido").value;
     email = document.getElementById("email").value;
     direccion = document.getElementById("direccion").value;
     
         
-    
+    validanombre = /[a-z]/;
     validamail = /\w+@\w+\.+[a-z]/;  // declaramos una expresion regular para validar el campo correo electrónico
 
 
@@ -16,7 +16,7 @@ function validar(){
         alert("Todos los campos son obligatorios");
         return false;
     }
-    else if (nombre.length>30) {
+    else if ((nombre.length>30) || (!validanombre.test(nombre))){
         alert("El nombre es muy largo");
         return false;
     }
