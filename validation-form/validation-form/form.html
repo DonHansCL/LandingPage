@@ -22,35 +22,43 @@
 
     <div class="row g-5">
       <div class="col-md-5 col-lg-5 mx-auto">
-        <form>
+        <form class="needs-validation" novalidate="">
           <div class="row g-3">
             <div class="col-sm-6">
               <label for="firstName" class="form-label">Nombre</label>
-              <input type="text" class="form-control" id="nombre" placeholder="" value="" >
-              
+              <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+              <div class="invalid-feedback">
+                El nombre es obligatorio
+              </div>
             </div>
 
             <div class="col-sm-6">
               <label for="lastName" class="form-label">Apellido</label>
-              <input type="text" class="form-control" id="apellido" placeholder="" value="" >
-              
+              <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+              <div class="invalid-feedback">
+                El apellido es obligatorio
+              </div>
             </div>
 
             <div class="col-12">
               <label for="email" class="form-label">Email <span class="text-muted">(Opcional)</span></label>
               <input type="email" class="form-control" id="email" placeholder="tucorreo@ejemplo.com">
-              
+              <div class="invalid-feedback">
+                Por favor ingresa una dirección de correo válida.
+              </div>
             </div>
 
             <div class="col-12">
               <label for="address" class="form-label">Dirección</label>
-              <input type="text" class="form-control" id="direccion" placeholder="Calle de las flores" >
-              
+              <input type="text" class="form-control" id="address" placeholder="Calle de las flores" required="">
+              <div class="invalid-feedback">
+                Por favor ingresa una dirección.
+              </div>
             </div>
           </div>
-          
 
-          <button class="w-100 btn btn-primary btn-lg mt-2" type="submit" onclick="validar();">Enviar información</button>
+
+          <button class="w-100 btn btn-primary btn-lg mt-2" type="submit">Enviar información</button>
         </form>
       </div>
     </div>
@@ -71,11 +79,9 @@
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 
-    <script type="text/javascript" src="js/form.js"></script>
-    
-    <!--<script type="text/javascript">
+    <script type="text/javascript">
       alert("hola");
-    </script> -->
+    </script>
 
   </body>
 </html>
